@@ -1,2 +1,4 @@
 com/example/hellospring/HelloSpringApplication.java
  com.example.hellospring.HelloSpringApplication
+com/example/hellospring/controller/HelloController.java
+ com.example.hellospring.controller.HelloController
