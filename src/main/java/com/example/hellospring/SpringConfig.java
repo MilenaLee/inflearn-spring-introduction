@@ -1,12 +1,11 @@
 package com.example.hellospring;
 
+import com.example.hellospring.aop.TimeTraceAop;
 import com.example.hellospring.repository.*;
 import com.example.hellospring.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
-import javax.persistence.EntityManager;
 
 @Configuration
 public class SpringConfig {
@@ -46,4 +45,8 @@ public class SpringConfig {
 //        // 우리가 스프링을 사용하는 이유. 다형성을 활용할 수 있어서. 구현체 바꿔끼우는것이 가능하다.
 //    }
 
+//    @Bean
+//    public TimeTraceAop TimeTraceAop() {
+//        return new TimeTraceAop();
+//    }
 }
